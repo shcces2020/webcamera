@@ -40,6 +40,7 @@ button.addEventListener('click', event => {
   } else {
     videoConstraints.deviceId = { exact: select.value };
   }
+  videoConstraints.width=400;
   const constraints = {
     video: videoConstraints,
     audio: false
