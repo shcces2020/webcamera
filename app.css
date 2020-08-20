@@ -1,0 +1,49 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+main {
+  background: #ffffff;
+  min-height: 80vh;
+  margin: 0 auto;
+}
+
+.controls {
+  text-align: center;
+  padding: 0.5em 0;
+  background: #333e5a;
+}
+
+video {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+#startbutton {
+  display: block;
+  margin: 10px auto;
+}
+
+#canvas {
+  display:none;
+}
+
+.output {
+  width: 340px;
+  display:inline-block;
+}
